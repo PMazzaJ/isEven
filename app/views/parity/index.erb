@@ -1,0 +1,28 @@
+<div class="container d-flex flex-column justify-content-center align-items-center" style="min-height: 100vh;">
+  <div class="w-100">
+    <div class="title">isEven?</div>
+    <div class="center-box">
+      <form method="get">
+        <input
+          name="number"
+          type="number"
+          step="1"
+          pattern="\d*"
+          inputmode="numeric"
+          class="form-control text-center mb-3"
+          placeholder="Enter a number"
+          aria-label="Number input">
+        <button type="submit" class="btn btn-danger w-100">Check</button>
+      </form>
+      <% if @number.present? %>
+        <div class="mt-4 text-center fs-4">
+          <% if @is_even %>
+            <span class="text-success">Hell Yeah 🔥</span>
+          <% else %>
+            <span class="text-danger">Nope 😡</span>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,1 @@
+# isEven? - Simple Parity Checker

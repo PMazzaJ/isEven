@@ -1,0 +1,41 @@
+body {
+    background: #141414;
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.title {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #e50914;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px #000;
+}
+.center-box {
+    background: rgba(20,20,20,0.85);
+    border-radius: 8px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 32px 0 rgba(0,0,0,0.75);
+    max-width: 400px;
+    margin: 0 auto;
+}
+.form-control {
+    background: #222;
+    color: #fff;
+    border: 1px solid #333;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.form-control:focus {
+    background: #333;
+    color: #fff;
+    border-color: #e50914;
+    box-shadow: none;
+}
+.form-control::placeholder {
+    color: #bbb;
+    opacity: 1;
+}
