@@ -1,9 +1,9 @@
 # isEven? - Simple Parity Checker
 
-A simple Ruby on Rails app to check if a number is even or odd. Enter a number, hit the button, and get a quick answer—no fuss.
+A minimal Ruby on Rails app to check if a number is even or odd. This project was created mainly to get familiar with deploying apps on Railway.
 
 ---
+
 - **Live Demo:** [is-even-production.up.railway.app](https://is-even-production.up.railway.app/)
----
 
-_The easiest way to settle the even vs. odd debate._
+---
